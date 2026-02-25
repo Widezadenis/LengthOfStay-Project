@@ -28,7 +28,7 @@ Reducing average LoS by just 1 day can save hospitals millions annually while im
   * Day_of_Week: Identifies admission day patterns (ex: weekend admissions may have different LoS due to staffing)
 - These engineered features are critical for understanding how timing affects patient outcomes and resource needs.
 
-## Data Quality Verification
+### Data Quality Verification
 - Confirmed no null values in key fields (Episode_ID, Facility_ID, Admission_Date)
 - Validated that Length_Of_Stay is positive and reasonable (0-17 days)
 - Verified clinical flags contain only binary values (0/1)
