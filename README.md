@@ -39,6 +39,6 @@ This project analyzes hospital admission data to predict patient length of stay 
 - Mean: 4.0 days
 - Median: 4.0 days
   * Key Insight: The equal mean and median shows that there are no outliers that are skewing the average, hospital stays are around 4 days.
-  * The consistent 4 day length of stay indicates this is a patient population with routine medical or surgical needs, not complex tertiary care cases. This allows for hospitals to be confident in staffing and bed allocation planning.
+  * The consistent 4 day length of stay indicates this is a comumunity hospital with routine medical or surgical needs, not complex tertiary care center. This allows for hospitals to be confident in staffing and bed allocation planning.
 
 Next Question: Does this pattern hold across all admission types and months, or are there subgroups with different distributions?
