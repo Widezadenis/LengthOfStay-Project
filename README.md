@@ -30,3 +30,5 @@ Reducing average LoS by just 1 day can save hospitals millions annually while im
 - Confirmed no null values in key fields (Episode_ID, Facility_ID, Admission_Date)
 - Validated that Length_Of_Stay is positive and reasonable (0-17 days)
 - Verified clinical flags contain only binary values (0/1)
+
+<img width="1438" height="683" alt="Screenshot 2026-02-24 at 8 58 14 PM" src="https://github.com/user-attachments/assets/74e6153e-4bf3-4a79-ad03-5a037b35f83d" />
