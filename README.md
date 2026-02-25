@@ -8,7 +8,9 @@ Reducing average LoS by just 1 day can save hospitals millions annually while im
 
 ###### Dataset: Microsoft Hospital Length of Stay dataset (100,000+ admissions, 28 clinical features)
 
-## Data Preparation
+## Data cleaning:
+
+###  Data Preparation
 - Renamed columns for consistency and readability:
   * Original cryptic names are now clear, descriptive headers
   * Ensured consistent naming convention (ex: all flags end with "_Flag")
@@ -32,3 +34,5 @@ Reducing average LoS by just 1 day can save hospitals millions annually while im
 - Verified clinical flags contain only binary values (0/1)
 
 <img width="1438" height="683" alt="Screenshot 2026-02-24 at 8 58 14 PM" src="https://github.com/user-attachments/assets/74e6153e-4bf3-4a79-ad03-5a037b35f83d" />
+
+
