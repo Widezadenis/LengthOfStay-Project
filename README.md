@@ -37,3 +37,12 @@ Reducing average LoS by just 1 day can save hospitals millions annually while im
 
 # Exploratory Analysis: 
 - Question: What factors most strongly correlate with longer length of stay?
+
+## Length of Stay Distribution
+- Mean: 4.0 days
+- Median: 4.0 days
+  * Key Insight: Unlike my ER wait times project (81 min mean, 60 min median), this dataset shows a perfectly symmetrical distribution. The equal mean and median indicate no extreme outliers skewing the average—hospital stays are consistently clustered around 4 days.
+
+Clinical Interpretation: This pattern suggests the dataset likely represents general medical/surgical patients rather than complex tertiary care cases. Resource planning can be based on predictable 4-day stays across most patient populations.
+
+Next Question: Does this pattern hold across all admission types and months, or are there subgroups with different distributions?
