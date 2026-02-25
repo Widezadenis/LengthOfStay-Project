@@ -16,13 +16,13 @@ Reducing average LoS by just 1 day can save hospitals millions annually while im
   * Ensured consistent naming convention (ex: all flags end with "_Flag")
   * This standardization enables seamless analysis across Excel, SQL, and Tableau
 
-## Data Optimization
+### Data Optimization
 - Reorganized fields to prioritize unique identifiers (Facility_ID, Episode_ID) at the front of the dataset. This improves:
   * Data navigation efficiency
   * Lookup performance when joining tables
   * Quick identification of primary keys
 
-## Feature Engineering
+### Feature Engineering
 - Created new temporal features from Admission_Date:
   * Admission_Month: Allows for seasonal pattern analysis (ex: higher LoS in winter months)
   * Day_of_Week: Identifies admission day patterns (ex: weekend admissions may have different LoS due to staffing)
@@ -35,4 +35,4 @@ Reducing average LoS by just 1 day can save hospitals millions annually while im
 
 <img width="1438" height="683" alt="Screenshot 2026-02-24 at 8 58 14 PM" src="https://github.com/user-attachments/assets/74e6153e-4bf3-4a79-ad03-5a037b35f83d" />
 
-
+# Exploratory analysis: 
