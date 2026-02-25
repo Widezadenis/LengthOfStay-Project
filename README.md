@@ -1,14 +1,14 @@
 # LengthOfStay Predictive Dasboard
 
-## Goal: 
+# Goal: 
 Predict patient length of stay at admission to enable proactive hospital resource planning.
 
-## Business Impact: 
+# Business Impact: 
 Reducing average LoS by just 1 day can save hospitals millions annually while improving patient throughput and bed availability.
 
 ###### Dataset: Microsoft Hospital Length of Stay dataset (100,000+ admissions, 28 clinical features)
 
-## Data cleaning:
+# Data Cleaning:
 
 ###  Data Preparation
 - Renamed columns for consistency and readability:
