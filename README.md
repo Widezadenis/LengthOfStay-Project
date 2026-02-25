@@ -36,3 +36,4 @@ Reducing average LoS by just 1 day can save hospitals millions annually while im
 <img width="1438" height="683" alt="Screenshot 2026-02-24 at 8 58 14 PM" src="https://github.com/user-attachments/assets/74e6153e-4bf3-4a79-ad03-5a037b35f83d" />
 
 # Exploratory Analysis: 
+- Question: What factors most strongly correlate with longer length of stay?
