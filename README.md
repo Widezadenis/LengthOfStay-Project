@@ -43,6 +43,7 @@ This project analyzes hospital admission data to predict patient length of stay 
 
 - Questions:
    * Does length of stay increase during winter months?
+      * Findings: 
    * Is it 4 days for everyone, or do some groups stay longer?
    * Do weekend admissions stay longer because of fewer specialists?
    * Which conditions increase length of stay? 
