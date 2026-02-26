@@ -1,7 +1,7 @@
 # LengthOfStay Predictive Dasboard
 
 # Project OVerview: 
-This project analyzes hospital admission data to predict patient length of stay (LoS). By identifying key risk factors at admission, the dashboard enables proactive resource allocation and improved patient flow management.
+This project analyzes hospital admission data to predict patient length of stay (LoS). By identifying risk factors at admission, this dashboard aims to improve resource allocation and patient flow management.
 
 ###### Dataset: Microsoft Hospital Length of Stay dataset (100,000+ admissions, 28 clinical features)
 
@@ -9,14 +9,14 @@ This project analyzes hospital admission data to predict patient length of stay 
 
 ###  Data Preparation
 - Renamed columns for consistency and readability:
-  * Original names are now clear and descriptive names
+  * Original names are now clear and have descriptive names
   * Ensured consistent naming convention (ex: all flags end with "_Flag")
-  * This standardization allows for seamless analysis across Excel, SQL, R, and Tableau
+- This allows for seamless analysis across Excel, SQL, R, and Tableau
 
 ### Data Optimization
 - Reorganized fields to prioritize unique identifiers moved Facility_ID to the front of the dataset. This improves:
-  * Data navigation efficiency
-  * Lookup performance when joining tables
+  * Data navigation
+  * Lookup performance
   * Quick identification of primary keys
 
 ### Feature Engineering
@@ -39,7 +39,7 @@ This project analyzes hospital admission data to predict patient length of stay 
 - Mean: 4.0 days
 - Median: 4.0 days
   * Key Insight: The equal mean and median shows that there are no outliers that are skewing the average, hospital stays are around 4 days.
-  * The consistent 4 day length of stay indicates this is a comumunity hospital with routine medical or surgical needs, not complex tertiary care center. This allows for hospitals to be confident in staffing and bed allocation planning.
+  * The consistent 4 day length of stay shows that this is a comumunity hospital with routine medical or surgical needs, not a tertiary care center. This allows hospitals to be confident in staffing and bed allocation planning.
 
 - Questions:
    * Is it 4 days for everyone, or do some groups stay longer?
