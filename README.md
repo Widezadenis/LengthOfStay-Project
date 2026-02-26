@@ -51,11 +51,6 @@ This project analyzes hospital admission data to predict patient length of stay 
    * Is it 4 days for everyone, or do some groups stay longer?
    * Do weekend admissions stay longer because of fewer specialists?
    * Which conditions increase length of stay? 
-
-- Findings:
-   * Length of stay is the same accross every month which means:
-      * staffing needs are predicable year round.
-      * Holidays and winters do not impact length of stay
  
 
      
