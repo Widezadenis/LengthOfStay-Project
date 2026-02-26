@@ -42,9 +42,11 @@ This project analyzes hospital admission data to predict patient length of stay 
   * The consistent 4 day length of stay shows that this is a comumunity hospital with routine medical or surgical needs, not a tertiary care center. This allows hospitals to be confident in staffing and bed allocation planning.
 
 - Questions:
-   * Is it 4 days for everyone, or do some groups stay longer?
    * Does length of stay increase during winter months?
+   * Is it 4 days for everyone, or do some groups stay longer?
    * Do weekend admissions stay longer because of fewer specialists?
    * Which conditions increase length of stay? 
-  
+
+- Findings:
+   * Length of is the same accross every month which means staffing needs are predicable year round.
 
