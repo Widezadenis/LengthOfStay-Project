@@ -48,5 +48,7 @@ This project analyzes hospital admission data to predict patient length of stay 
    * Which conditions increase length of stay? 
 
 - Findings:
-   * Length of is the same accross every month which means staffing needs are predicable year round.
+   * Length of stay is the same accross every month which means:
+         * staffing needs are predicable year round.
+     
 
