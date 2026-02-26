@@ -49,6 +49,6 @@ This project analyzes hospital admission data to predict patient length of stay 
 
 - Findings:
    * Length of stay is the same accross every month which means:
-         * staffing needs are predicable year round.
+-          staffing needs are predicable year round.
      
 
