@@ -54,20 +54,21 @@ This project analyzes hospital admission data to predict patient length of stay 
 <img width="830" height="902" alt="image" src="https://github.com/user-attachments/assets/329ce1b0-72e8-4641-ae09-144910267d82" />
 
    * Which conditions affect length of stay?
-      * Findings: Dialysis has highest impact on the length of stay and Asthma has the least.
-| Specialist | Avg Wait | Avg Registration | Avg Triage | Avg Doc Time |
-| ---  | --- | --- | --- | --- |
-| 0 | 77 | 11 | 23 | 42 |
-| 1 | 79 | 11 | 23 | 43 |
-| 2 | 83 | 11 | 25 | 45 |
-| 3 | 88 | 12 | 27 | 49 |
-| 4 | 80 | 11 | 24 | 44 |
-| 5 | 76 | 11 | 23 | 42 |
-| 6 | 80 | 11 | 24 | 44 |
-| 7 | 86 | 12 | 25 | 48 |
-| 8 | 78 | 11 | 23 | 43 |
-| 9 | 78 | 11 | 23 | 44 |
-| 10 | 84 | 11 | 25 | 47|
+      * Findings: Dialysis has highest impact on the length of stay and Asthma has the least
+        
+| Condition | Present | Absent | Impact | 
+| ---  | --- | --- | --- | 
+| Dialysis_Renal_End_Stage_Flag | 3.92 | 6.06 | 2.14 | 
+| Fibrosis_Flag | 3.99 | 6.11 | 2.12 | 
+| Psychological_Disorder_Flag  | 3.90 | 5.99 | 2.09 | 
+| Malnutrition_Flag    | 3.91 | 5.81 | 1.90 | 
+| Blood_Disorder_Flag | 3.85 | 5.74 | 1.89 | 
+| pneumonia_Flag | 3.94 | 5.58 | 1.64 | 
+| Major_Psychological_Disorder_Flag  | 3.62 | 5.21 | 1.59 |
+| Iron_Deficiency_Flag | 3.85 | 5.41 | 1.56 | 
+| Substance_Dependence_Flag  | 3.91 | 5.35 | 1.44 | 
+| Depression_Flag  | 3.93 | 5.23| 1.29 |
+| Asthma_Flag  | 3.96 | 5.01 | 1.05 |
         
    * Is it 4 days for everyone, or do some groups stay longer?
      
