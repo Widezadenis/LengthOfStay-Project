@@ -53,7 +53,9 @@ This project analyzes hospital admission data to predict patient length of stay 
          * weekend admissions have the same legnth of stays with weekdays which does not confirm my hypothesis that weekend stays would be longer because of less specialists.
 <img width="830" height="902" alt="image" src="https://github.com/user-attachments/assets/329ce1b0-72e8-4641-ae09-144910267d82" />
 
-   * Which conditions increase length of stay?
+   * Which conditions affect length of stay?
+      * Findings: Dialysis has highest impact on the length of stay and Asthma has the least.
+        
    * Is it 4 days for everyone, or do some groups stay longer?
      
 
