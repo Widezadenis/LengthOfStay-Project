@@ -55,9 +55,19 @@ This project analyzes hospital admission data to predict patient length of stay 
 
    * Which conditions affect length of stay?
       * Findings: Dialysis has highest impact on the length of stay and Asthma has the least.
-| Condition | Avg_LoS(Present) | Avg_LoS(Absent) | Impact |
-| ---  | --- | --- | --- |
-| Visit ID | nvarchar(50) | Unique Identifier |
+| Specialist | Avg Wait | Avg Registration | Avg Triage | Avg Doc Time |
+| ---  | --- | --- | --- | --- |
+| 0 | 77 | 11 | 23 | 42 |
+| 1 | 79 | 11 | 23 | 43 |
+| 2 | 83 | 11 | 25 | 45 |
+| 3 | 88 | 12 | 27 | 49 |
+| 4 | 80 | 11 | 24 | 44 |
+| 5 | 76 | 11 | 23 | 42 |
+| 6 | 80 | 11 | 24 | 44 |
+| 7 | 86 | 12 | 25 | 48 |
+| 8 | 78 | 11 | 23 | 43 |
+| 9 | 78 | 11 | 23 | 44 |
+| 10 | 84 | 11 | 25 | 47|
         
    * Is it 4 days for everyone, or do some groups stay longer?
      
