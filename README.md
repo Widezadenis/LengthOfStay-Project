@@ -49,6 +49,10 @@ This project analyzes hospital admission data to predict patient length of stay 
 <img width="830" height="902" alt="image" src="https://github.com/user-attachments/assets/257a1810-22a0-4372-8bfb-d8d67d87d10e" />
             
    * Do weekend admissions stay longer because of fewer specialists?
+      * Findings:
+         * weekend admissions have the same legnth of stays with weekdays which does not confirm my hypothesis that weekend stays would be longer because of less specialists.
+<img width="830" height="902" alt="image" src="https://github.com/user-attachments/assets/329ce1b0-72e8-4641-ae09-144910267d82" />
+
    * Which conditions increase length of stay?
    * Is it 4 days for everyone, or do some groups stay longer?
      
