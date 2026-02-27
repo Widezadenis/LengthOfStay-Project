@@ -53,9 +53,9 @@ This project analyzes hospital admission data to predict patient length of stay 
 <img width="830" height="902" alt="image" src="https://github.com/user-attachments/assets/329ce1b0-72e8-4641-ae09-144910267d82" />
 
    * Which conditions affect length of stay?
-      * Findings: Dialysis has the highest impact on the length of stay and Asthma has the least
+      * Findings: Dialysis patients stay 2.14 days longer than patients without dialysis
         
-| Condition | Present | Absent | Impact | 
+| Condition | Absent | Present | Impact | 
 | ---  | --- | --- | --- | 
 | Dialysis_Renal_End_Stage_Flag | 3.92 | 6.06 | 2.14 | 
 | Fibrosis_Flag | 3.99 | 6.11 | 2.12 | 
@@ -70,7 +70,7 @@ This project analyzes hospital admission data to predict patient length of stay 
 | Asthma_Flag  | 3.96 | 5.01 | 1.05 |
         
    * Does abnormal lab values affect length of stay?
-      * Findings: Abnormal values do not affect length of stay they are about the same as the average length of stay.
+      * Findings: Abnormal lab values do not affect length of stay
  <img width="796" height="908" alt="image" src="https://github.com/user-attachments/assets/becf02ec-c475-450d-81e6-8a3162cb7320" />
 
      
