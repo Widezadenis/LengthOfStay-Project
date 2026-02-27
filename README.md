@@ -49,12 +49,11 @@ This project analyzes hospital admission data to predict patient length of stay 
 <img width="830" height="902" alt="image" src="https://github.com/user-attachments/assets/257a1810-22a0-4372-8bfb-d8d67d87d10e" />
             
    * Do weekend admissions stay longer because of fewer specialists?
-      * Findings:
-         * weekend admissions have the same legnth of stays with weekdays which does not confirm my hypothesis that weekend stays would be longer because of less specialists.
+      * Findings: weekend admissions have the same legnth of stays with weekdays which does not confirm my hypothesis that weekend stays would be longer because of less specialists.
 <img width="830" height="902" alt="image" src="https://github.com/user-attachments/assets/329ce1b0-72e8-4641-ae09-144910267d82" />
 
    * Which conditions affect length of stay?
-      * Findings: Dialysis has highest impact on the length of stay and Asthma has the least
+      * Findings: Dialysis has the highest impact on the length of stay and Asthma has the least
         
 | Condition | Present | Absent | Impact | 
 | ---  | --- | --- | --- | 
@@ -70,7 +69,10 @@ This project analyzes hospital admission data to predict patient length of stay 
 | Depression_Flag  | 3.93 | 5.23| 1.29 |
 | Asthma_Flag  | 3.96 | 5.01 | 1.05 |
         
-   * Is it 4 days for everyone, or do some groups stay longer?
+   * Does abnormal lab values affect length of stay?
+      * Findings: Abnormal values do not affect length of stay they are about the same as the average length of stay.
+ <img width="796" height="908" alt="image" src="https://github.com/user-attachments/assets/becf02ec-c475-450d-81e6-8a3162cb7320" />
+
      
 
  
