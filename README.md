@@ -73,7 +73,7 @@ This project analyzes hospital admission data to predict patient length of stay 
       * Findings: Abnormal lab values do not affect length of stay
  <img width="796" height="908" alt="image" src="https://github.com/user-attachments/assets/becf02ec-c475-450d-81e6-8a3162cb7320" />
 
-     
+# Risk Scores     
 
  
 
