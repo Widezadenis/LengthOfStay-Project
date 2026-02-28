@@ -21,8 +21,8 @@ This project analyzes hospital admission data to predict patient length of stay 
 
 ### Feature Engineering
 - Created new temporal features from Admission_Date:
-  * Admission_Month: Allows for seasonal pattern analysis (ex: higher LoS in winter months)
-  * Day_of_Week: Identifies admission day patterns (ex: weekend admissions may have different LoS due to staffing)
+  * **Admission_Month:** Allows for seasonal pattern analysis (ex: higher LoS in winter months)
+  * **Day_of_Week:** Identifies admission day patterns (ex: weekend admissions may have different LoS due to staffing)
 - These features are critical for understanding how timing affects patient outcomes and resource needs.
 
 ### Data Quality Verification
@@ -86,10 +86,33 @@ This project analyzes hospital admission data to predict patient length of stay 
 | :---: | :---: |
 | <img width="892" height="908" alt="image" src="https://github.com/user-attachments/assets/a8b8b7d5-ec6d-4d58-8537-a64a1c2001aa" /> | <img width="892" height="908" alt="image" src="https://github.com/user-attachments/assets/75a1034d-5c42-48d5-841e-ddf128a2cc82" /> |
 
-<img width="892" height="908" alt="image" src="https://github.com/user-attachments/assets/a8b8b7d5-ec6d-4d58-8537-a64a1c2001aa" />
+# Business Impact
+**Realistic Goal (High Risk → Medium Risk):**
+- 8,004 patients × 0.79 extra days = **6,323 bed-days annually**
+- At $3,000 per bed-day = **$19 million in potential savings**
 
-<img width="892" height="908" alt="image" src="https://github.com/user-attachments/assets/75a1034d-5c42-48d5-841e-ddf128a2cc82" />
+**Best Case (High Risk → Low Risk):**
+- 8,004 patients × 2.3 extra days = **18,409 bed-days annually**
+- At $3,000 per bed-day = **$55.2 million in potential savings**
 
+# Recommendations
+- Dialysis Patient Protocol: Early interventions for Dialysis patients to reduce number of days.
+- Nutrition Support: Nutrition screening within 24 hours of admission.
+- Mental Health Integration: Integrate mental health providers in medical units.
 
+# Conclusions
+This analysis successfully identified key drivers of length of stay in a community hospital setting:
+
+- **Consistent baseline:** 4-day average stay with no seasonal variation
+- **Top risk factors:** Dialysis (+2.14 days), Fibrosis (+2.12 days), Psychological disorders (+2.09 days)
+- **Validated risk score:** Clear separation between Low (3.6 days), Medium (5.1 days), and High Risk (5.9 days) patients
+- **Business impact:** Targeting High Risk patients could save 6,300+ bed-days ($19M) annually
+
+**Next Steps:** Implement early intervention protocols for High Risk patients and track impact on length of stay.
+
+# Limitations 
+- **Dataset:** Synthetic data may not reflect real-world complexity
+- **Causation vs Correlation:** Conditions are associated with longer stays but don't prove causation
+- **Missing factors:** No data on procedures, medications, or insurance type
      
 
