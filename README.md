@@ -1,6 +1,6 @@
-# LengthOfStay Predictive Dasboard
+# LengthOfStay Predictive Dashboard
 
-# Project OVerview: 
+# Project Overview: 
 This project analyzes hospital admission data to predict patient length of stay (LoS). By identifying risk factors at admission, this dashboard aims to improve resource allocation and patient flow management.
 
 ###### Dataset: Microsoft Hospital Length of Stay dataset (100,000+ admissions, 28 clinical features)
@@ -39,17 +39,17 @@ This project analyzes hospital admission data to predict patient length of stay 
 - Mean: 4.0 days
 - Median: 4.0 days
   * Key Insight: The equal mean and median shows that there are no outliers that are skewing the average, hospital stays are around 4 days.
-  * The consistent 4 day length of stay shows that this is a comumunity hospital with routine medical or surgical needs, not a tertiary care center. This allows hospitals to be confident in staffing and bed allocation planning.
+  * The consistent 4 day length of stay shows that this is a community hospital with routine medical or surgical needs, not a tertiary care center. This allows hospitals to be confident in staffing and bed allocation planning.
 
 - Questions:
    * Does length of stay increase during winter months?
       * Findings:
-         * Staffing needs are predicable year round
+         * Staffing needs are predictable year round
          * Holidays and winters do not impact length of stay
 <img width="830" height="902" alt="image" src="https://github.com/user-attachments/assets/257a1810-22a0-4372-8bfb-d8d67d87d10e" />
             
    * Do weekend admissions stay longer because of fewer specialists?
-      * Findings: weekend admissions have the same legnth of stays with weekdays which does not confirm my hypothesis that weekend stays would be longer because of less specialists.
+      * Findings: weekend admissions have the same length of stays with weekdays which does not confirm my hypothesis that weekend stays would be longer because of less specialists.
 <img width="830" height="902" alt="image" src="https://github.com/user-attachments/assets/329ce1b0-72e8-4641-ae09-144910267d82" />
 
    * Which conditions affect length of stay?
