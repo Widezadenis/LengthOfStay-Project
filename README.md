@@ -74,8 +74,10 @@ This project analyzes hospital admission data to predict patient length of stay 
  <img width="796" height="908" alt="image" src="https://github.com/user-attachments/assets/becf02ec-c475-450d-81e6-8a3162cb7320" />
 
 # Predictive Risk Scores: 
-- Based on my previous analysis I created a weighted risk score 
-
+- Based on my previous analysis I created a weighted risk score to find out which patients will stay longer.
+  
+| Risk Level | Average Stay | Number of Patient | 
+| ---  | --- | --- | 
  
 
      
