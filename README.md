@@ -82,6 +82,10 @@ This project analyzes hospital admission data to predict patient length of stay 
 | Medium Risk | 5.14 | 12,596 | 12.6% |
 | High Risk  | 5.93 | 8,004 | 8.0% |
 
+<img width="892" height="908" alt="image" src="https://github.com/user-attachments/assets/a8b8b7d5-ec6d-4d58-8537-a64a1c2001aa" />
+
+<img width="892" height="908" alt="image" src="https://github.com/user-attachments/assets/75a1034d-5c42-48d5-841e-ddf128a2cc82" />
+
 
      
 
