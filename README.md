@@ -77,7 +77,7 @@ This project analyzes hospital admission data to predict patient length of stay 
 - Based on my previous analysis I created a weighted risk score to find out which patients will stay longer.
   
 | Risk Level | Average Stay | Number of Patients | Percentage of Population | 
-| ---  | --- | --- | 
+| ---  | --- | --- | --- |
 | Low Risk | 3.63 | 79,400 | 79.4% |
 | Medium Risk | 5.14 | 12,596 | 12.6% |
 | High Risk  | 5.93 | 8,004 | 8.0% |
