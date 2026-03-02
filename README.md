@@ -1,4 +1,4 @@
-# LengthOfStay Predictive Dashboard
+# LengthOfStay Predictive Analysis
 
 # Project Overview: 
 This project analyzes hospital admission data to predict patient length of stay (LoS). By identifying risk factors at admission, this dashboard aims to improve resource allocation and patient flow management.
