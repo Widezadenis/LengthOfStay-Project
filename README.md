@@ -4,7 +4,7 @@
 This project analyzes hospital admission data to predict patient length of stay (LoS). By identifying risk factors at admission, this dashboard aims to improve resource allocation and patient flow management.
 
 <img width="1360" height="659" alt="Screenshot 2026-03-03 at 9 26 40 PM" src="https://github.com/user-attachments/assets/1f20bf62-2620-410f-a7b7-f6d4dd3646b2" />
-[Length Of Stay Predictive Dashboard](https://public.tableau.com/app/profile/wideza.denis/viz/LengthofStayPredictiveDashboard/Dashboard1)
+https://public.tableau.com/app/profile/wideza.denis/viz/LengthofStayPredictiveDashboard/Dashboard1
 
 ###### Dataset: Microsoft Hospital Length of Stay dataset (100,000+ admissions, 28 clinical features)
 
